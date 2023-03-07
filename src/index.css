@@ -1,0 +1,147 @@
+
+/* all style attribute will be here */
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+/* header sytyles */
+.header-title{
+  background-color: rgb(18, 186, 18);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* navbar styles */
+nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #2192FF;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  padding: 0 10px;
+}
+
+.active {
+  text-shadow: 0px 0px 3px #060302;
+  color: black;
+}
+
+/* lists styles */
+.list {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.item {
+  padding: 10px 20px;
+  border: 1px solid rgb(165, 161, 161);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px -3px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-btn {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+.update-btn {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  background-color: rgb(12, 62, 227);
+  margin-right: 10px;
+  border: 1px solid rgb(12, 62, 227);
+  border-radius: 5px;
+  color: white;
+}
+
+.check {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.check:checked ~ .text {
+  text-decoration: line-through;
+}
+
+.not {
+  text-align: center;
+  color: red;
+}
+
+/* add page and update page*/
+
+.add-form, .update-form {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+#text {
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: 1px solid rgb(161, 159, 159);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 50%;
+  transition: all .1s;
+}
+
+#text:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+}
+
+.submit-btn {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(9, 167, 203);
+  color: white;
+  font-size: 15px;
+  border: 1px solid rgb(9, 167, 203);
+  transition: all .1s;
+}
+
+.submit-btn:hover {
+  background-color: rgb(9, 142, 172);
+  border: 1px solid rgb(9, 142, 172);
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  /* left: 50%; */
+  padding: 30px;
+  background-color: rgb(193, 184, 184);
+  width: 100%;
+}
+
+
