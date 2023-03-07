@@ -7,7 +7,7 @@ I explained how to use the project below
 git clone https://github.com/mertseyit/todo-list.git
 ```
 
-2. Open the project from any your use IDE. Open the terminal window and type the this code blocks for install npm packages.: 
+2. Open the project from any your use IDE. Open the terminal window and type the this command for install npm packages.: 
 ```
 npm install
 ```
