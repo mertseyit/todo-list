@@ -17,7 +17,7 @@ npm start
 
 And project will begin... 
 
-Useful react libraries
+Usefull react libraries
 
 1. React Icons
 2. React Router Dom
